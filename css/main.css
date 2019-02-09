@@ -219,6 +219,9 @@ h6 {
     font-style: normal;
 }
 
+.jumbotron {
+    background-color: transparent;
+}
 
 .view {
   min-height: 85vh;
