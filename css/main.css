@@ -94,6 +94,9 @@ section .container {
 .card {
     color: #263238;
     margin-bottom: 2rem;
+    padding: 30px;
+    height: auto; 
+    border: none;
 }
 
 .typeform-widget {
@@ -199,6 +202,14 @@ h6 {
 #quellcode {
     color: #0090DA;
     text-decoration: none;
+}
+
+.card-link {
+    color: #0090DA;
+}
+
+.card-link:hover {
+    color: #78BE20;
 }
 
 .nav a {
