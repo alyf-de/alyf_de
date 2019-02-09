@@ -96,7 +96,8 @@ section .container {
     margin-bottom: 2rem;
     padding: 30px;
     height: auto; 
-    border-color: #0090DA;
+    border: none;
+    background-color: #fbfcfc;
 }
 
 .typeform-widget {
