@@ -35,6 +35,10 @@ section .container {
     min-height: 100vh;
 }
 
+.box{
+    padding:60px 0px;
+}
+
 #contact {
     background-color: #263238;
     color: #e0e0e0;
@@ -93,11 +97,11 @@ section .container {
 
 .card {
     color: #263238;
+    background-color: white;
     margin-bottom: 2rem;
     padding: 30px;
     height: auto; 
     border: none;
-    background-color: #fbfcfc;
 }
 
 .typeform-widget {
@@ -163,6 +167,10 @@ section .container {
     border: none;
 }
 
+.fa-3x {
+    padding: 10px;
+} 
+
 p {
     font-family: muli, sans-serif;
     font-weight: 300;
@@ -213,6 +221,13 @@ h6 {
     color: #78BE20;
 }
 
+.card-text {
+    font-family: muli, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #253746;
+}
+
 .nav a {
     color: #0090DA;
     font-family: muli, sans-serif;
@@ -226,7 +241,18 @@ h6 {
 
 .view {
   min-height: 85vh;
-}   
+}
+
+.display-4:not(.no-puck)::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #0090DA;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* @media (max-width: 740px) {
   html,
