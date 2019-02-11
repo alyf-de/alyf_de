@@ -98,8 +98,7 @@ section .container {
 .card {
     color: #263238;
     background-color: white;
-    margin-bottom: 2rem;
-    padding: 30px;
+    padding-top: 30px;
     height: auto; 
     border: none;
 }
@@ -136,12 +135,18 @@ section .container {
 
 @media (min-width: 1200px) {}
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-  .card {
-    min-height: 80vh; 
-  }
+/* Cards same height responsive */
+@media (min-width: 992px) { 
+    .card {
+        min-height: 80vh;
+    }
  }
+
+@media (min-width: 1200px) { 
+    .card {
+        min-height: 60vh;
+    }
+}
 
 /*Corporate Design*/
 
