@@ -35,10 +35,6 @@ section .container {
     min-height: 100vh;
 }
 
-.box{
-    padding: 10px;
-}
-
 #contact {
     background-color: #263238;
     color: #e0e0e0;
@@ -93,14 +89,6 @@ section .container {
     font-size: 2rem;
     text-decoration: none;
     color: #263238;
-}
-
-.card {
-    color: #263238;
-    background-color: white;
-    padding-top: 30px;
-    height: auto; 
-    border: none;
 }
 
 .typeform-widget {
@@ -235,6 +223,14 @@ h6 {
     text-decoration: none;
 }
 
+.card {
+    color: #263238;
+    background-color: white;
+    padding-top: 30px;
+    height: auto; 
+    border: none;
+}
+
 .card-link {
     color: #0090DA;
 }
@@ -268,20 +264,8 @@ h6 {
     margin-right: auto;
 }
 
-/* @media (max-width: 740px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 1000px;
-  }
+.card-img-quali {
+    height: 3rem; 
+    align-self: center;
+    margin: 10px;
 }
-
-@media (min-width: 800px) and (max-width: 850px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 600px;
-  }
-} */
