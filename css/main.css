@@ -230,6 +230,19 @@ h2 {
     color: #253746;
 }
 
+h3 {
+    font-family: muli, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #253746;
+}
+
+h5 {
+    font-family: muli, sans-serif;
+    font-weight: 400;
+    color: #253746;
+}
+
 h6 {
     font-family: muli, sans-serif;
     font-weight: 300;
