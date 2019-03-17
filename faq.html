@@ -40,7 +40,7 @@
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="img/alyf.svg" id="alyf-logo" width="100" class="d-inline-block align-top"
-                        alt="ALYF-Logo">
+                        alt="ALYF-Logo" onclick="window.location.href='index.html'">
                 </a>
                 <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse"
                     data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
@@ -53,10 +53,10 @@
                             <a class="nav-link" href="index.html#erpnext">Warum ERPNext</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#services">Was wir Ihnen bieten</a>
+                            <a class="nav-link" href="index.html#services">Was wir Ihnen bieten</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#zapier-app">Zapier App</a>
+                            <a class="nav-link" href="index.html#zapier-app">Zapier App</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://erp.alyf.de/blog" target="_blank">Blog</a>
@@ -70,14 +70,21 @@
         </nav>
     </header>
     <!--Accordion-->
-    <section class="accordion-section clearfix mt-5" aria-Label="Question Accordions">
+    <section class="accordion-section clearfix mb-5" aria-Label="Question Accordions">
         <div class="container">
-            <h2 class="display-4 text-center mb-5">Frequently Asked Questions</h2>
+            <div class="row">
+                <div class="jumbotron">
+                    <h2 class="display-4 text-center">Frequently Asked Questions</h2>
+                    <p class="lead text-center text-muted">Wir geben Ihnen Antworten auf die wichtigsten Fragen</p>
+                </div>
+            </div>
+            <!-- <h2 class="display-4 text-center mb-5">Frequently Asked Questions</h2> -->
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <!--FAQ 1-->
                 <div class="panel panel-default">
                     <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
                         <h3 class="panel-title">
-                            <i class="fas fa-chevron-down float-right"></i>
+                            <i class="fas fa-chevron-down float-right collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0"></i>
                             <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
                                 <h5>Welche deutschen Unternehmen nutzen ERPNext?</h5>
                             </a> 
@@ -89,10 +96,11 @@
                         </div>
                     </div>
                 </div>
+                <!--FAQ 2-->
                 <div class="panel panel-default">
                     <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
                         <h3 class="panel-title">
-                            <i class="fas fa-chevron-down float-right"></i>
+                            <i class="fas fa-chevron-down float-right collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1"></i>
                             <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
                                 <h5>Was kostet ERPNext?</h5>
                             </a> 
@@ -104,10 +112,11 @@
                         </div>
                     </div>
                 </div>
+                <!--FAQ 3-->
                 <div class="panel panel-default">
                     <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
                         <h3 class="panel-title">
-                            <i class="fas fa-chevron-down float-right"></i>
+                            <i class="fas fa-chevron-down float-right collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2"></i>
                             <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
                                 <h5>Welche Vorteile bietet ERPNext gegenüber SAP?</h5>
                             </a> 
@@ -119,11 +128,119 @@
                         </div>
                     </div>
                 </div>
+                <!--FAQ 4-->
+                <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
+                        <h3 class="panel-title">
+                            <i class="fas fa-chevron-down float-right collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3"></i>
+                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                <h5>In welchen Sprachen ist ERPNext verfügbar?</h5>
+                            </a> 
+                        </h3>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                        <div class="panel-body px-3 mb-4">
+                          <p>With Solodev CMS, you and your visitors will benefit from a finely-tuned technology stack that drives the highest levels of site performance, speed and engagement - and contributes more to your bottom line. Our users fell in love with:</p>
+                        </div>
+                    </div>
+                </div>
+                <!--FAQ 5-->
+                <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading4">
+                        <h3 class="panel-title">
+                            <i class="fas fa-chevron-down float-right collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4"></i>
+                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                                <h5>Kann ERPNext mobil genutzt werden?</h5>
+                            </a> 
+                        </h3>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+                        <div class="panel-body px-3 mb-4">
+                          <p>With Solodev CMS, you and your visitors will benefit from a finely-tuned technology stack that drives the highest levels of site performance, speed and engagement - and contributes more to your bottom line. Our users fell in love with:</p>
+                        </div>
+                    </div>
+                </div>
+                <!--FAQ 6-->
+                <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading5">
+                        <h3 class="panel-title">
+                            <i class="fas fa-chevron-down float-right collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse5"></i>
+                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                                <h5>Kann ERPNext on-premise oder in der Cloud betrieben werden?</h5>
+                            </a> 
+                        </h3>
+                    </div>
+                    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+                        <div class="panel-body px-3 mb-4">
+                          <p>With Solodev CMS, you and your visitors will benefit from a finely-tuned technology stack that drives the highest levels of site performance, speed and engagement - and contributes more to your bottom line. Our users fell in love with:</p>
+                        </div>
+                    </div>
+                </div>
+                <!--FAQ 7-->
+                <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading6">
+                        <h3 class="panel-title">
+                            <i class="fas fa-chevron-down float-right collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="true" aria-controls="collapse6"></i>
+                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="true" aria-controls="collapse0">
+                                <h5>Wie lässt sich ERPNext mit anderen Systemen kombinieren?</h5>
+                            </a> 
+                        </h3>
+                    </div>
+                    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+                        <div class="panel-body px-3 mb-4">
+                          <p>With Solodev CMS, you and your visitors will benefit from a finely-tuned technology stack that drives the highest levels of site performance, speed and engagement - and contributes more to your bottom line. Our users fell in love with:</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-
-
-
-
+    <!-- Contact -->
+    <section class="sect" id="contact">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-12">
+                    <!-- Kontaktdaten -->
+                    <div class="pb-5">
+                        <h2 class="text-light">Kontakt</h2>
+                        <p class="text-light">Unterstützung bei Fragen rund um ERPNext.</p>
+                        <p><a href="https://calendly.com/alyf/30min" target="_blank">
+                                <button type="button" class="btn btn-primary"><i class="fas fa-phone mr-1"
+                                        id="fa-phone"></i>
+                                    Rückruf vereinbaren</button>
+                            </a>
+                        </p>
+                        <p>
+                            <a class="typeform-share py-2" href="https://alyf2.typeform.com/to/WFzYAI" data-mode="popup"
+                                data-hide-headers=true data-hide-footer=true data-submit-close-delay="5"
+                                target="_blank">
+                                <button type="button" class="btn btn-primary"><i class="fas fa-envelope mr-2"
+                                        id="fa-phone"></i>Anfrage senden </button>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="section-content">
+                        <h5 class="pb-3 text-light">Raffael Meyer</h5>
+                        <p class="text-light">+49 152 270 580 38</p>
+                        <p class="text-light">raffael@alyf.de</p>
+                        <hr>
+                        <p class="text-muted">Straße des 18. Oktober 33<br>04103 Leipzig</p>
+                        <a href="datenschutz.html">
+                            <p class="text-muted">Datenschutzerklärung</p>
+                        </a>
+                        <br>
+                        <p class="text-muted">Design by <a class="text-muted" target="_blank"
+                                href="https://www.linkedin.com/in/natalie-buehrmann/">Natalie
+                                Bührmann</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- back to top-->
+    <a id="up-btn" href="#header">
+        <button type="button" class="btn btn-dark">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    </a>
 </body>
