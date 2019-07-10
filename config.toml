@@ -1,0 +1,3 @@
+baseURL = "https://alyf.de/"
+languageCode = "de"
+theme = "alyf"
