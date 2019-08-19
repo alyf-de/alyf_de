@@ -205,6 +205,19 @@ body {
     border: none;
 }
 
+.btn-secondary {
+    color: #0090DA;
+    border-style: solid;
+    border-color: #0090DA;
+    background-color: transparent;
+}
+
+.btn-secondary:hover {
+    background-color: #78BE20;
+    color: white;
+    border: none;
+}
+
 .fa-3x {
     padding: 10px;
 }
