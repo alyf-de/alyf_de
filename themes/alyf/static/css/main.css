@@ -41,7 +41,7 @@ body {
 }
 
 #contact {
-    background-color: #263238;
+    background-color: #253746;
     color: #e0e0e0;
     font-weight: 400;
 }
@@ -200,7 +200,7 @@ body {
     border: none;
 }
 
-.fa-3x {
+.fa-3x, .fa-2x {
     padding: 10px;
 }
 
@@ -367,14 +367,14 @@ h6 {
     cursor: pointer;
 }
 
-#faq li {
+#faq li, #partner li {
     margin: 10px 0;
     list-style: none;
 }
 
 /* Changes bullet points */
 
-#faq li::before {
+#faq li::before, #partner li::before {
     content: "\2022";
     color: #0090DA;
     display: inline-block;
@@ -394,6 +394,10 @@ h6 {
 
 .pink {
     color: #c5299b;
+}
+
+.dark-gray {
+    color: #253746;
 }
 
 /* --- End Colors --- */
