@@ -118,6 +118,11 @@ body {
     font-size: 2rem;
 }
 
+.bullet-icon {
+    display: flex;
+    align-items: flex-end;
+}
+
 /* bigger than medium */
 
 @media (min-width: 992px) {
@@ -200,8 +205,12 @@ body {
     border: none;
 }
 
-.fa-3x, .fa-2x {
+.fa-3x {
     padding: 10px;
+}
+
+.fa-2x {
+    padding: 20px;
 }
 
 .jumbotron {
@@ -367,14 +376,14 @@ h6 {
     cursor: pointer;
 }
 
-#faq li, #partner li {
+#faq li {
     margin: 10px 0;
     list-style: none;
 }
 
 /* Changes bullet points */
 
-#faq li::before, #partner li::before {
+#faq li::before {
     content: "\2022";
     color: #0090DA;
     display: inline-block;
