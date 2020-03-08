@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,600');
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Muli', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 300;
     background-color: #fbfcfc;
 }
@@ -179,7 +180,6 @@ body {
     background-color: #0090DA;
     color: white;
     border: none;
-    font-family: muli, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -216,47 +216,40 @@ body {
 /* Typography */
 
 p {
-    font-family: muli, sans-serif;
     font-weight: 300;
     font-style: normal;
     color: #253746;
 }
 
 p.small {
-    font-family: muli, sans-serif;
     font-weight: 200;
     font-style: normal;
 }
 
 ul {
-    font-family: muli, sans-serif;
     font-weight: 300;
     font-style: normal;
     color: #253746;
 }
 
 h2 {
-    font-family: muli, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #253746;
 }
 
 h3 {
-    font-family: muli, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #253746;
 }
 
 h5 {
-    font-family: muli, sans-serif;
     font-weight: 400;
     color: #253746;
 }
 
 h6 {
-    font-family: muli, sans-serif;
     font-weight: 300;
     color: #253746;
 }
@@ -295,7 +288,6 @@ h6 {
 }
 
 .card-text {
-    font-family: muli, sans-serif;
     font-weight: 300;
     font-style: normal;
     color: #253746;
@@ -303,7 +295,6 @@ h6 {
 
 .nav a {
     color: #0090DA;
-    font-family: muli, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
